@@ -9,9 +9,9 @@
   :components ((:file "package")
                (:file "simut")
                (:module "src"
-                :components ((:file "unit-test-structs")))
+                        :components ((:file "unit-test-structs")))
                (:module "test"
-                :components ((:file "test-unit-test-structs")))
+                        :components ((:file "test-unit-test-structs")))
                )
   )
 

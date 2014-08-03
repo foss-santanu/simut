@@ -1,7 +1,7 @@
 SIMUT - (SIM)PLE (U)NIT (T)EST FRAMEWORK
 ========================================
 
-**Current Version**: 0.1
+**Current Version**: 0.2
 
 **A bit of history**
 
@@ -30,3 +30,11 @@ Currently there is no API documentation or usage manual, but the test cases that
 **Any help** in any form, be it *code review* or *feature suggestions* or *bug reporting* or anything else, is heartily welcomed.
 
 Developing this unit test framework is a much enjoyed learning experience whereby I put my footings into the Land of Lisp. :-)
+
+### Change Logs
+
+* On 2nd Aug 2014: version 0.2 - Changes implemented based on feedback from *Common Lisp* [Linkedin group](https://www.linkedin.com/groupItem?type=member&qid=6410e5ac-d1a0-4ef9-b11f-9dd0523b8989&trk=groups_most_popular-0-b-ttl&goback=.gmp_830547&item=5891294440844177411&gid=830547&view=)
+
+ + `(setf symbol-function` has been replaced by `(defun`
+ + A single `PRINT-RESULT` that was previously creating formatted result output for a single test or a test suite or all tests has been replaced by three `PRINT-RESULT` functions to take care of the three cases.
+ + A simple but useful document for SIMUT has been added. This one is created by [CODE-DOCS](https://github.com/foss-santanu/code-tools) document creation tool.
